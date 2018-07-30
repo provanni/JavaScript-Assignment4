@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Casino Craps</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+
+    <h2>Casino Craps</h2>
+    <h3>Instructions:</h3>
+    
+    <p><strong>To Win</strong>: Roll a 7 or 11 on the first roll. <br>
+      <strong>To Lose</strong>: Roll a 12, 2, or 3 on the first roll. <br>
+      <br>
+      If you roll a 1, 4, 5, 6, or 8, that number becomes your points and
+      you get to <strong>roll again</strong>. <br>
+      After the first roll, if you roll a 7 you lose.
+      You must now roll the <strong>same number</strong> twice in a row to win.
+
+    </p>
+    <div class="container">
+      <button type="button" name="reset" id="reset">Reset Game</button>
+      <button type="button" name="roll" id="roll">Roll Dice</button>
+
+
+    <p id="diceResult"></p>
+    <div class="die1" id="die1"> </div>
+    <div class="die2" id="die2"> </div>
+
+    <p id="points"></p>
+    <p id="gameResult"></p>
+    </div>
+
+    <footer>
+      <p>&copy; Sheridan College Web Programming</p>
+      <p>Icons made by <a href="https://www.flaticon.com/authors/made-by-made-premium"
+        title="Freepik">Made Premium</a> from <a href="https://www.flaticon.com/"
+        title="Flaticon">www.flaticon.com</a> is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+    </footer>
+
+    <script type="text/javascript" src="craps.js">
+
+    </script>
+
+  </body>
+</html>
